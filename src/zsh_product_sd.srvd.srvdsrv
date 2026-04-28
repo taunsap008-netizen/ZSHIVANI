@@ -1,0 +1,4 @@
+@EndUserText.label: 'sd'
+define service Zsh_product_sd {
+  expose zsh_cds_c_sales;
+}

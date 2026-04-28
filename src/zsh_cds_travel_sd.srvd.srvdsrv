@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Sales order'
+define service Zsh_cds_travel_sd {
+  expose zsh_cds_c_sales;
+}

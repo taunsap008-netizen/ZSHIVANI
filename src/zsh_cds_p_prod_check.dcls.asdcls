@@ -1,0 +1,10 @@
+@EndUserText.label: 'data control check'
+@MappingRole: true
+define role ZSH_CDS_P_PROD_CHECK {
+    grant
+        select
+            on
+                ZSH_CDS_P_Prod_check
+                where category = 'Dell';
+                        
+}
